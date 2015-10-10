@@ -15,7 +15,7 @@
 
 /*Styling for the page header*/
 .header {
-	background: #103941;
+	background: #184a4a;
 	color: #fff;
 	padding: 20px 5%;
 	box-shadow: 0 1px 3px #555;
@@ -60,5 +60,13 @@
 /*Styling for the footer of th page*/
 .footer {
 	padding: 10px 5%;
+	background: #184a4a;
+	color: #fff;
+}
+
+.footer p {
+	margin: 0;
+	font-size: .8em;
+	float: left;
 }
 /*--------------------------------*/
