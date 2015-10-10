@@ -1,3 +1,64 @@
+/*I got this clearfix class form - https://css-tricks.com/snippets/css/clear-fix/ */
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/*Styling for the page header*/
+.header {
+	background: #103941;
+	color: #fff;
+	padding: 20px 5%;
+	box-shadow: 0 1px 3px #555;
+}
+
 .header h1 {
+	margin: 0;
+	font-size: 1.7em;
+	float: left;
+}
+/*--------------------------------*/
+/*Styling for the navagation in the header*/
+.header-nav {
+	float: right;
+}
+
+.header-nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.header-nav ul li {
+	display: inline;
+}
+
+.header-nav ul li a {
+	font-size: 1.2em;
+	text-decoration: none;
 	color: #fff;
 }
+/*--------------------------------*/
+/*Styling for the main body of the page*/
+.main-body {
+	padding: 0 15%;
+}
+
+.main-body h2 {
+	text-align: center;
+}
+/*--------------------------------*/
+/*Styling for the footer of th page*/
+.footer {
+	padding: 10px 5%;
+}
+/*--------------------------------*/
